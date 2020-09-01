@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+
+.course-container {
+  display: flex;
+  font-family: montserrat;
+  background-color: white;
+}
+
+.flex-div {
+  width: 100%;
+}
+
+.sidebar {
+  width: 380px;
+  position: fixed;
+  top: 5rem;
+  margin-left: 67%;
+  box-shadow: 0 0 10px 0 #cdc4c4;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.sidebar img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.sidebar .content {
+  padding: 20px 30px;
+}
+
+.sidebar .content h2 {
+  font-size: 30px;
+  margin-top: 0;
+  font-family: Do Hyeon;
+}
+
+.sidebar .content h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.sidebar .content button {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  background-color: rgb(23, 160, 194);
+  font-weight: bold;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+.sidebar .content button:hover {
+  opacity: 0.6;
+}
+
+.course-details {
+  width: 100%;
+}
+
+.course-details .upper-content {
+  width: 100%;
+  background-color: #06a3bd;
+  color: white;
+  height: 300px;
+  padding: 50px 0;
+}
+
+.course-details .upper-content .content {
+  width: 60%;
+  margin: auto;
+  margin-left: 7%;
+}
+
+.course-details .upper-content .content h1 {
+  font-size: 50px;
+}
+
+.course-details .upper-content .content p {
+  font-size: 21px;
+}
+
+.left-main-content-box {
+  float: left;
+  width: 60%;
+  padding: 40px 20px 20px 50px;
+}
+
+.left-main-content-box .what-learn {
+  padding: 35px;
+  border: 2px solid #bbbaba;
+  border-radius: 15px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.left-main-content-box .what-learn h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.left-main-content-box .what-learn p {
+  font-size: 19px;
+  color: #343333;
+  margin: 0;
+}
+
+.left-main-content-box .description {
+  width: 80%;
+  margin: 10%;
+}
+
+.left-main-content-box .description {
+  font-size: 19px;
+}

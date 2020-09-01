@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 13px 25px 13px 15px;
+  background-color: #24252a;
+}
+
+.header .logo {
+  cursor: pointer;
+  margin-right: auto;
+  width: 210px;
+}
+
+.header .nav-link {
+  list-style: none;
+  margin: 0;
+}
+
+.header .nav-link li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-family: Montserrat, sans-serif;
+}
+
+.header .nav-link li a {
+  transition: all 0.3s ease 0s;
+  color: white;
+  text-decoration: none;
+}
+
+.header .nav-link li a:hover {
+  color: #0088a9;
+}
+
+.header .login-button {
+  padding: 3px 15px;
+  margin-left: 10px;
+  background: rgba(0, 136, 169, 1);
+  border: 2px solid white;
+  border-radius: 50px;
+  transition: all 0.5s;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  outline: none !important;
+}
+
+.header .login-button:hover {
+  color: rgba(0, 136, 169, 1);
+  background-color: white;
+  border: 3px solid rgba(0, 136, 169, 1);
+}
+
+.header .dropbtn {
+  background-color: #24252a;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.header .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.header .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.header .dropdown-content a,
+button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.header .dropdown-content a:hover {
+  background-color: #ddd;
+  text-decoration: none;
+}
+
+/* Show the dropdown menu on hover */
+.header .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .login-button {
+    padding: 2px 12px;
+    font-size: 13px;
+  }
+  .nav-link li {
+    display: none;
+  }
+  .logo {
+    width: 150px;
+  }
+  .header {
+    padding: 10px 18px 10px 10px;
+  }
+}

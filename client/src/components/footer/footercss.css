@@ -1,0 +1,38 @@
+footer {
+  margin: 0;
+  color: white;
+  background-color: #2b2b2b;
+}
+
+footer .content-box {
+  display: flex;
+  padding: 3% 10% 1%;
+}
+footer .left {
+  width: 40%;
+}
+
+footer .right {
+  display: flex;
+}
+
+footer .right .links {
+  margin: 0 10rem;
+}
+
+footer.right .social {
+  margin: auto;
+}
+
+footer .right .social img {
+  width: 45px;
+  padding: 5px;
+}
+
+footer .copyright {
+  margin: 0;
+  padding: 4px;
+  font-size: 15px;
+  text-align: center;
+  background: #1e1e1e;
+}

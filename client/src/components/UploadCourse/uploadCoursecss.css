@@ -1,0 +1,31 @@
+.UploadBox {
+  width: 800px;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 0 0 30px 0 grey;
+  padding: 30px;
+  font-family: montserrat;
+}
+
+.UploadBox form {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.UploadBox label {
+  font-weight: bold;
+}
+
+.UploadBox input,
+textarea {
+  width: 100%;
+}
+
+.UploadBox input[type="submit"] {
+  width: auto;
+  padding: 8px;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  background-color: #227ec9e8;
+}

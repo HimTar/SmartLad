@@ -1,0 +1,18 @@
+.dropbox {
+  display: flex;
+}
+
+.dropzone {
+  margin: auto;
+  width: 300px;
+  height: 240px;
+  border: 3px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropzone:hover {
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+}

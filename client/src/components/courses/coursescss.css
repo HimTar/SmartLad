@@ -1,0 +1,22 @@
+.courses-container {
+  background-color: white;
+}
+
+.Courses .cover-image img {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.Courses .our-courses {
+  width: 85%;
+  margin: 3rem auto 0;
+  padding-bottom: 3rem;
+}
+
+.Courses .course-list {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #ebeaea;
+  padding: 25px 10px;
+}
