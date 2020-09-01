@@ -7,10 +7,11 @@ const fileUpload = require("express-fileupload");
 const app = express();
 
 //Configuring MongoDB
-const db = "mongodb://localhost:27017/test";
+const db =
+  "mongodb+srv://UserAdmin1:Himanshu@20@cluster0.b1n2w.mongodb.net/test?retryWrites=true&w=majority";
 
 mongoose
-  .connect(process.env.MONGODB_URI || db, {
+  .connect(db, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
