@@ -49,7 +49,7 @@ router.get("/callback/", (req, res) => {
       .then((user) => console.log(user))
       .catch((err) => console.log(err));
 
-    return res.redirect("http://localhost:3000/payment-status");
+    return res.redirect("https://smartlad.herokuapp.com/payment-status");
   }
 });
 
