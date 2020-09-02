@@ -21,7 +21,6 @@ const Login = (props) => {
       const { isAuthenticated, user, message } = data;
       if (isAuthenticated) {
         authContext.setUser(user);
-        console.log(user);
         authContext.setisAuthenticated(isAuthenticated);
       } else {
         setMessage(message);

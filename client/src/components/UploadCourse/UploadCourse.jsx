@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import FileUpload from "../utils/fileUpload";
+import FileUpload from "../utils/fileUpload/fileUpload";
 import { AuthContext } from "../../context/authContext";
 import axios from "axios";
 import "./uploadCoursecss.css";

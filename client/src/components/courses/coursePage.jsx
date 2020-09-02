@@ -42,7 +42,7 @@ const CoursePage = (props) => {
         email: user.email,
         phone: "9898989898",
         user_id: user._id,
-        redirect_url: `http://localhost:5000/payment/callback?course_id=${courseId}&user_id=${user._id}`,
+        redirect_url: `https://smartlad.herokuapp.com/payment/callback?course_id=${courseId}&user_id=${user._id}`,
       };
 
       axios

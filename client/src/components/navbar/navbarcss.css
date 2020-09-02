@@ -35,7 +35,7 @@
   color: #0088a9;
 }
 
-.header .login-button {
+.common-button {
   padding: 3px 15px;
   margin-left: 10px;
   background: rgba(0, 136, 169, 1);
@@ -49,7 +49,7 @@
   outline: none !important;
 }
 
-.header .login-button:hover {
+.common-button:hover {
   color: rgba(0, 136, 169, 1);
   background-color: white;
   border: 3px solid rgba(0, 136, 169, 1);

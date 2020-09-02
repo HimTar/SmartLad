@@ -14,10 +14,10 @@ const Navbar = (props) => {
     return (
       <>
         <Link to="/login">
-          <button className="login-button">Login</button>
+          <button className="common-button">Login</button>
         </Link>
         <Link to="/register">
-          <button className="login-button">Register</button>
+          <button className="common-button">Register</button>
         </Link>
       </>
     );

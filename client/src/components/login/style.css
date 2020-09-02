@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  background-image: url("../../icons/table.jpg");
+  background-image: url("../../icons/bubble.jpg");
   background-size: cover;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 .loginbox {
-  width: 420px;
+  width: 350px;
   margin: 100px auto;
   padding: 30px;
   box-shadow: 0 0 50px 0 black;
@@ -23,14 +23,14 @@ body {
 .loginbox .avatar {
   margin: 0 auto 20px auto;
   display: flex;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
 }
 
 .loginbox h1 {
   margin: 0;
-  padding: 0 0 40px;
+  padding: 0 0 20px;
   text-align: center;
   font-weight: bold;
   font-size: 22px;

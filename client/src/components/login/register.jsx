@@ -52,7 +52,7 @@ const Register = (props) => {
 
   return (
     <div className="login-container">
-      <div className="loginbox">
+      <div className="loginbox" style={{ width: "400px" }}>
         <img src={avatar} className="avatar" alt="avatar" />
         <h1>Register</h1>
         <form onSubmit={onSubmit}>
