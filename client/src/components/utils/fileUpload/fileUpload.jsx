@@ -8,6 +8,7 @@ const FileUpload = (props) => {
   const OnChange = (event) => {
     const formData = new FormData();
     const fileData = event.target.files[0];
+    const ImageUrl = URL.createObjectURL(fileData);
 
     // Update the formData object
     formData.append("photo", fileData);
@@ -46,11 +47,7 @@ const FileUpload = (props) => {
 
       {Image ? (
         <div onClick={onDelete} style={{ margin: "auto" }}>
-          <img
-            style={{ width: "250px", height: "200px" }}
-            src={Image}
-            alt="Course-Pic"
-          />
+          <img style={{ height: "200px" }} src={Image} alt="Course-Pic" />
         </div>
       ) : null}
     </div>
