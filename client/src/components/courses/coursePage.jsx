@@ -23,7 +23,7 @@ const CoursePage = (props) => {
       .catch((err) => {
         console.log(err);
       });
-  }, [courseId, user.course]);
+  }, [courseId, user.courses]);
 
   const BuyButton = () => {
     return <button onClick={onBuyNow}>Buy Now</button>;

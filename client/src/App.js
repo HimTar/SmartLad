@@ -24,8 +24,10 @@ function App() {
         <Route exact path={["/", "/home"]} component={Home} />
         <Route exact path="/courses" component={Courses} />
         <Route exact path="/courses/:courseId" component={CoursePage} />
+
         <UnPrivateRoute path="/login" component={Login} />
         <UnPrivateRoute path="/register" component={Register} />
+
         <PrivateRoute
           path="/payment-status"
           roles={["user"]}
@@ -42,6 +44,7 @@ function App() {
           component={UploadCourse}
         />
         <PrivateRoute path="/admin" roles={["admin"]} component={Admin} />
+
         <Route component={Page404} />
       </Switch>
 

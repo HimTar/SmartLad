@@ -2,17 +2,26 @@
   display: flex;
 }
 
-.dropzone {
+.dropbox .inputWrapper {
   margin: auto;
-  width: 300px;
-  height: 240px;
-  border: 3px solid lightgray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 200px;
+  width: 250px;
+  opacity: 0.8;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  background-color: #d3f1ee;
+  border: 3.2px dashed #1198ae;
 }
-
-.dropzone:hover {
-  border-color: #9ecaed;
-  box-shadow: 0 0 10px #9ecaed;
+.dropbox .fileInput {
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  font-size: 50px;
+  opacity: 0;
+  -moz-opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 }

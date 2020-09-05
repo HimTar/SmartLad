@@ -1,6 +1,8 @@
 const router = require("express").Router();
 const passport = require("passport");
+const path = require("path");
 const Course = require("../models/course");
+const cloudinary = require("cloudinary").v2;
 
 router.get("/courses-display", (req, res) => {
   Course.find({}, (err, course) => {
@@ -24,24 +26,28 @@ router.post(
   "/upload-image",
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
-    if (req.files === null) {
-      return res.status(200).json({ msg: "No file uploaded" });
+    const file = req.files.photo;
+    var ext = path.extname(req.files.photo.name);
+
+    if (ext === ".png" || ext === ".jpg") {
+      cloudinary.uploader.upload(file.tempFilePath, (err, result) => {
+        if (err)
+          res.json({
+            msgBody: "Error while uploading the file",
+            msgError: true,
+          });
+        else
+          res.json({
+            msgBody: result.url,
+            msgError: false,
+          });
+      });
+    } else {
+      res.json({
+        msgBody: "File type not valid",
+        msgError: true,
+      });
     }
-    const file = req.files.file;
-    const fileName = Date.now() + "_" + file.name.replace(/\s/g, "");
-    const filePath = `${__dirname.replace(
-      "routes",
-      ""
-    )}client/public/uploads/${fileName}`;
-
-    file.mv(filePath, (err) => {
-      if (err) {
-        console.log(err);
-        return res.status(500).send(err);
-      }
-
-      res.json({ filePath: `/uploads/${fileName}` });
-    });
   }
 );
 

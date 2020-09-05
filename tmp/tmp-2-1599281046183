@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="profile-image">
+          <img src="himanshu.jpg" alt="Profile_Pic" />
+        </div>
+
+        <div class="contact">
+          <h4>Email Id :</h4>
+          <p>tariyal2000@gmail.com</p>
+
+          <h4>Phone No. :</h4>
+          <p>+91 8287617796</p>
+
+          <h4>Location :</h4>
+          <p>Noida Sector 40, Delhi/NCR</p>
+
+          <h4>LinkedIn Id :</h4>
+          <a href="www.linkedin.com/in/himanshu-tariyal"
+            >www.linkedin.com/in/himanshu-tariyal</a
+          >
+        </div>
+      </div>
+
+      <div class="right"></div>
+    </div>
+  </body>
+</html>

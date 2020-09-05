@@ -1,30 +1,32 @@
 import React, { useState } from "react";
-import Dropzone from "react-dropzone";
 import axios from "axios";
 import "./fileUploadcss.css";
 
 const FileUpload = (props) => {
   const [Image, setImage] = useState(null);
 
-  const onDrop = async (files) => {
+  const OnChange = (event) => {
     const formData = new FormData();
-    formData.append("file", files[0]);
+    const fileData = event.target.files[0];
 
-    try {
-      const res = await axios.post("courses/upload-image", formData, {
+    // Update the formData object
+    formData.append("photo", fileData);
+
+    axios
+      .post("courses/upload-image", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
-      });
-
-      const { fileName, filePath } = res.data;
-      setImage({ fileName, filePath });
-      props.refreshFunction({ fileName, filePath });
-    } catch (err) {
-      if (err.response.status === 500)
-        console.log("There was problem with the server");
-      else console.log(err.response.data.msg);
-    }
+      })
+      .then((res) => {
+        if (res.data.msgError) {
+          alert(res.data.msgBody);
+        } else {
+          setImage(res.data.msgBody);
+          props.refreshFunction(res.data.msgBody);
+        }
+      })
+      .catch((err) => console.log(err));
   };
 
   const onDelete = () => {
@@ -33,21 +35,21 @@ const FileUpload = (props) => {
 
   return (
     <div className="dropbox">
-      <Dropzone onDrop={onDrop} multiple={false} maxSize={800000}>
-        {({ getRootProps, getInputProps }) => (
-          <div {...getRootProps({ className: "dropzone" })}>
-            <input {...getInputProps()} />
-            <p>Drag'n'drop or click to select files</p>
-          </div>
-        )}
-      </Dropzone>
+      <div className="inputWrapper">
+        <input
+          className="fileInput"
+          type="file"
+          name="file1"
+          onChange={OnChange}
+        />
+      </div>
 
       {Image ? (
         <div onClick={onDelete} style={{ margin: "auto" }}>
           <img
-            style={{ minWidth: "350px", width: "300px", height: "240px" }}
-            src={Image.filePath}
-            alt={`productImg-${Image.fileName}`}
+            style={{ width: "250px", height: "200px" }}
+            src={Image}
+            alt="Course-Pic"
           />
         </div>
       ) : null}

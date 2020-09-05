@@ -31,7 +31,7 @@ const UploadCourse = (props) => {
         title: course.title,
         description: course.description,
         price: course.price,
-        image: Image.filePath,
+        image: Image,
       };
 
       try {
