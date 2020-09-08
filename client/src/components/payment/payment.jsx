@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Payment extends Component {
   render() {
-    return <h1>Payment successful</h1>;
+    return <h1>Payment complete</h1>;
   }
 }
 

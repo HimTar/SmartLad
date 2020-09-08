@@ -8,7 +8,6 @@ const FileUpload = (props) => {
   const OnChange = (event) => {
     const formData = new FormData();
     const fileData = event.target.files[0];
-    const ImageUrl = URL.createObjectURL(fileData);
 
     // Update the formData object
     formData.append("photo", fileData);

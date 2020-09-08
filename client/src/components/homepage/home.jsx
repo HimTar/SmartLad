@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 import course from "../../icons/course.png";
 import mentor from "../../icons/mentor.png";
@@ -18,9 +19,11 @@ class Home extends Component {
               yourself with us and learn in-demand skills and make your future
               prosporous. <br />
             </p>
-            <button className="link-button" style={{ width: "200px" }}>
-              Check Courses
-            </button>
+            <Link to="/courses">
+              <button className="link-button" style={{ width: "200px" }}>
+                Check Courses
+              </button>
+            </Link>
           </div>
           <div className="right-half">
             <img src={course} alt="course" />
@@ -39,9 +42,11 @@ class Home extends Component {
               to your choosen field. Consult them, clear your doubts, take
               guidance and make your future more secure.
             </p>
-            <button className="link-button" style={{ width: "200px" }}>
-              Book Mentor
-            </button>
+            <Link to="/inmaking">
+              <button className="link-button" style={{ width: "200px" }}>
+                Book Mentor
+              </button>
+            </Link>
           </div>
         </section>
         <br />
@@ -54,9 +59,11 @@ class Home extends Component {
               Attend Seminars of well renowned consultants and gain knowledge on
               leading topics and skills.
             </p>
-            <button className="link-button" style={{ width: "250px" }}>
-              Look Competitions
-            </button>
+            <Link to="/inmaking">
+              <button className="link-button" style={{ width: "250px" }}>
+                Look Competitions
+              </button>
+            </Link>
           </div>
           <div className="right-half">
             <img src={competition} alt="course" />

@@ -14,6 +14,8 @@ import UploadCourse from "./components/UploadCourse/UploadCourse";
 import PrivateRoute from "./hocs/privateRoutes";
 import UnPrivateRoute from "./hocs/unprivateroute";
 import Page404 from "./components/utils/Page404/Page404";
+import InMaking from "./components/utils/InMaking/InMaking";
+import Test from "./components/utils/test";
 
 function App() {
   return (
@@ -44,6 +46,9 @@ function App() {
           component={UploadCourse}
         />
         <PrivateRoute path="/admin" roles={["admin"]} component={Admin} />
+
+        <Route exact path="/inmaking" component={InMaking} />
+        <Route path="/test" component={Test} />
 
         <Route component={Page404} />
       </Switch>

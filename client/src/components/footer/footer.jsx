@@ -11,8 +11,8 @@ const footer = () => {
     <footer>
       <div className="content-box">
         <div className="left">
-          <h1>Our Goal</h1>
-          <p style={{ fontSize: "18px", marginTop: "18px" }}>
+          <h2>Our Goal</h2>
+          <p style={{ fontSize: "15px", marginTop: "18px" }}>
             We have been guiding and supporting Students since 2016. We work
             hard to become the Biggest Support Platform on which students can
             depend upon. Connecting 10 Million+ students and 50+ schools will be

@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import AuthService from "../../services/AuthService";
 import { AuthContext } from "../../context/authContext";
+import { Dropdown, DropdownButton } from "react-bootstrap";
 import logo from "../../icons/Logo.png";
 import "./navbarcss.css";
 
@@ -35,23 +36,16 @@ const Navbar = (props) => {
   const authenticatedNavBar = () => {
     return (
       <>
-        <Link to="/">
-          <li className="nav-item nav-link">{user.username}</li>
-        </Link>
+        <DropdownButton title={user.username}>
+          <Dropdown.Item href="/upload-course">Create Course</Dropdown.Item>
+          <Dropdown.Item onClick={onClickLogoutHandler}>LogOut</Dropdown.Item>
+        </DropdownButton>
+
         {user.role === "admin" ? (
           <Link to="/admin">
             <li className="nav-item nav-link">Admin</li>
           </Link>
         ) : null}
-        <li>
-          <button
-            type="button"
-            className="btn btn-link nav-item nav-link"
-            onClick={onClickLogoutHandler}
-          >
-            Logout
-          </button>
-        </li>
       </>
     );
   };
@@ -66,13 +60,13 @@ const Navbar = (props) => {
             <a href="/home">Home</a>
           </li>
           <li>
-            <a href="/team">Team</a>
+            <a href="/inmaking">Team</a>
           </li>
           <li>
-            <a href="/blog">Blog</a>
+            <a href="/inmaking">Blog</a>
           </li>
           <li>
-            <a href="/aboutus">About Us</a>
+            <a href="/inmaking">About Us</a>
           </li>
         </ul>
       </nav>

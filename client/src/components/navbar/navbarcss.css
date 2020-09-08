@@ -11,7 +11,7 @@
 .header .logo {
   cursor: pointer;
   margin-right: auto;
-  width: 210px;
+  width: 170px;
 }
 
 .header .nav-link {
@@ -42,7 +42,7 @@
   border: 2px solid white;
   border-radius: 50px;
   transition: all 0.5s;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   font-family: Montserrat, sans-serif;
   color: white;
