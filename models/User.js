@@ -27,7 +27,8 @@ const UserSchema = new mongoose.Schema({
   },
 });
 
-//Hashing password before saving in Database
+// Hashing password before saving in Database
+
 UserSchema.pre("save", function (next) {
   if (!this.isModified("password")) {
     return next();
@@ -42,6 +43,8 @@ UserSchema.pre("save", function (next) {
     next();
   });
 });
+
+// Method For Comparing The Password Entered
 
 UserSchema.methods.comparePassword = function (password, next) {
   bcrypt.compare(password, this.password, (err, isMatch) => {

@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Registration-No.I1280001694881616237-REGISTRATION SYSTEM FOR MOVEMENT TO UTTARAKHAND STATE</title>
+
+<link rel="stylesheet" href="css/style1.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<style>
+    td,th{padding:8px!important;text-transform: uppercase;font-size: 11px;}
+    .home-container{ page-break-before: always; }
+.watermark::after {
+  content: "";
+  background: url(images/uk-logo.png);
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+}
+.highload{color: #fff;background: #ff0000;padding: 5px;margin-top: 10px;width: 46%;margin: 0 auto;}
+@media print 
+{
+    @page {
+      size: A4;
+      margin:0;
+    }
+}
+.intro td{font-size:15px;}
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165000298-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165000298-1');
+</script>
+
+</head>
+<body style="background-color:#FFF;" onload="window.print();">
+<div class="home-container">
+	<div class="container instruction-container" style="background:transparent">
+		<div class="col-md-12">			
+			<div class="instruction-container" style="background:transparent;border: 1px solid #d40000;">				
+				<div class="row">               
+					<div class="form-style-10" style="background:transparent">
+    					<div class="row">
+    					    <div class="col-md-12 text-center"><table width="100%">
+    					        <tr>
+    					            <td><img border="0" src="images/ukdscl.png" width="130"></td>
+    					            <td><h3><strong>GOVERNMENT OF UTTARAKHAND</strong></h3>
+    					            <h6><strong>e-registration for movement of persons</strong></h6>
+    					            </td>
+    					            <td><img border="0" src="images/uk-logo.png" width="110"></td>
+    					        </tr>
+    					        
+    					    </table></div>
+    					</div>
+    					<div class="watermark"></div>
+					    <div class="row">
+    					    <div class="col-md-12 text-center"><h2><strong>Journey Registration</strong> </h2>
+    					    
+    					    							
+						        					    </div>
+    					</div>
+    					<div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;">&nbsp;</div>
+					    </div>
+						<div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;">
+								<table border="1" class="intro" style="border-collapse: collapse; width: 98%;margin:0 auto;" cellspacing="1" cellpadding="4">
+                                <tr>
+                                	<td style="padding: 3px;text-align:left;"><strong>CATEGORY</strong></td>
+                                	<td style="padding: 3px;">
+									<strong>
+									FAMILY / PERSONAL REASON (SHORT VISIT UPTO 7DAYS)									</strong></td>
+                                </tr>
+								<tr>
+                                	<td style="padding: 3px;text-align:left;"><strong>SUB-CATEGORY</strong></td>
+                                	<td style="padding: 3px;">
+									<strong>
+									FAMILY / RELATIVE MEET									</strong></td>
+                                </tr>
+								<tr>
+                                	<td style="padding: 3px;text-align:left;"><strong>DATE OF JOURNEY</strong></td>
+                                	<td style="padding: 3px;">
+									<strong>
+									24-10-2020 - 06:00 AM									</strong></td>
+                                </tr>
+								<tr>
+                                	<td style="padding: 3px;text-align:left;"><strong>DESTINATION</strong></td>
+                                	<td style="padding: 3px;">
+									<strong>
+									Dehradun//H NO 159, C BLOCK, NAVI BASTI, RACE COURSE, DEHRADUN									</strong></td>
+                                </tr>
+								<tr>
+                                	<td style="padding: 3px;text-align:left;"><strong>COVID-19 TEST REPORT</strong></td>
+                                	<td style="padding: 3px;">
+									<strong>
+									NO									</strong></td>
+                                </tr>
+								</table>
+							
+							</div>
+					    </div>
+						<div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;"><hr/></div>
+					    </div>
+    					<div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;"><strong>1. Registration No.:</strong> I1280001694881616237</div>
+					    </div>
+					    
+					    <div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;"><strong>2. Name:</strong> VIKRAM SINGH, <strong>Age:</strong> 50 yrs.</div>
+					    </div>
+					    
+					    <div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;"><strong>3. Aarogya Setu App Status:</strong> Green</div>
+					    </div>
+					    
+					    <div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;"><strong>4. From State:</strong> Delhi</div>
+					    </div>
+					    
+					    <div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;"><strong>5. No. of Family Members(if any):</strong> 3</div>
+					    </div>
+					    					    
+					    					    <div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;color:#ff0000;font-weight:bold"><strong>6. Valid Upto:</strong> Your Stay in Uttarakhand is Valid upto 7 days i.e. till 31-10-2020</div>
+					    </div>
+					    					    
+					    <div class="row">
+    					    <div class="col-md-12 text-center"><h2><strong>Journey Details</strong> </h2></div>
+    					</div>
+    					<div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;"><strong>1. Mode of Travel:</strong> LIGHT MOTOR VEHICLE (LMV)</div>
+					    </div>
+    					    					<div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;"><strong>1(a). Vehicle No.:</strong> DL8CAE6244</div>
+					    </div>
+					    					    <div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;"><strong>2. Travel Start Date & Time:</strong> 24-10-2020 - 06:00 AM</div>
+					    </div>
+					    
+					    <div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;"><strong>3. Travel Start Location:</strong> DELHI</div>
+					    </div>
+					    
+					    <div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;"><strong>4. Travel End Date & Time:</strong> 24-10-2020 - 07:00 PM</div>
+					    </div>
+					    
+					    <div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;"><strong>5. Travel End Location:</strong> Dehradun//H NO 159, C BLOCK, NAVI BASTI, RACE COURSE, DEHRADUN</div>
+					    </div>
+					    					    					    <div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;"><strong>7. Other Co-Passengers:</strong><br/><br/>
+					        <table border="1" style="border-collapse: collapse; width: 97%" cellspacing="1" cellpadding="4">
+                                <tr>
+                                	<td style="padding: 3px;text-align:center;"><strong>Sr. No.</strong></td>
+                                	<td style="padding: 3px;"><strong>Family Member Name</strong></td>
+                        			<td style="padding: 3px;"><strong>Gender</strong></td>
+                                	<td style="padding: 3px;text-align:center;"><strong>Age</strong></td>
+                                	<td style="padding: 3px;text-align:center;"><strong>Mobile No.</strong></td>
+                                </tr>
+                                <tr>
+                                	<td style="padding: 3px;text-align:center;">1.</td>
+                                	<td style="padding: 3px;">SAVITRI DEVI</td>
+                                	<td style="padding: 3px;">Female</td>
+                                	<td style="padding: 3px;text-align:center;">72</td>
+                                	<td style="padding: 3px;text-align:center;">8800494880</td>
+                                </tr><tr>
+                                	<td style="padding: 3px;text-align:center;">2.</td>
+                                	<td style="padding: 3px;">DHARMESHWARI DEVI</td>
+                                	<td style="padding: 3px;">Female</td>
+                                	<td style="padding: 3px;text-align:center;">45</td>
+                                	<td style="padding: 3px;text-align:center;">8800494880</td>
+                                </tr><tr>
+                                	<td style="padding: 3px;text-align:center;">3.</td>
+                                	<td style="padding: 3px;">RAJESHWARI DEVI</td>
+                                	<td style="padding: 3px;">Female</td>
+                                	<td style="padding: 3px;text-align:center;">52</td>
+                                	<td style="padding: 3px;text-align:center;">8800494880</td>
+                                </tr></table>                            </div>
+                        </div>
+                        					    <div class="row">
+					        <div class="col-md-12" style="padding-top:2px;padding-bottom:2px;"><br/><strong>Declaration given by the applicant:</strong><br/>
+                            1. He/She has read the Government order number 575/USDMA/792/(2020) Dated 01 Sept 2020, 609/USDMA/792(2020)  Dated 11 Sept 2020, 625/USDMA/792/(2020) Dated 19 Sept 2020 of Unlock 4 mentioned under Instruction section and undertakes to abide by the same.<br/>
+                            2. The information provided by him/her is accurate to the best of his/her knowledge and he/she is aware that if the information provided by him is found false action may be initiated in Epidemic act or disaster management act.<br/>
+                            <!--3. The Applicant is aware that he/she may have to undergo quarantine as per the order dated 1st September, 2020.<br/-->
+                            3. The Applicant is not from containment zone in his/her City/ District.<br/>
+                            4. The Applicant solemnly affirms that he/she doesn't have any symptoms of COVID-19 like fever, dry cough etc.<br/>
+                            5. The applicant is supposed to bring medical test negative report / certificate with him, which will be checked at border check post, in case he/she has declared as per the order dated 19th September, 2020 that he/she has undergone RT-PCR/TrueNAT/CBNAAT/Antigen test.<br/>
+                            6. If any of the information/declaration is found false or if any person violates any terms & conditions of the issuing authority then this registration will be automatically considered null & void & action will be initiated against the person under IPC, The Epidemic Act 1897 and The Disaster Management Act 2005.
+
+<br/><br/>
+<strong>Note: If you or your family members are coming from containment area / Institutional Quarantine Centres then this registration will be treated as cancelled automatically.</strong><br/>
+</div>
+					    </div>
+					    
+                	<div class="row">
+                	    <div class="col-md-12 text-center">
+                	        							<img src="https://chart.googleapis.com/chart?chs=200x140&cht=qr&chl=1. Registration No. : I1280001694881616237&nbsp; 2. Name : VIKRAM SINGH&nbsp; 3. Start Location : DELHI&nbsp; 4. End Location : Dehradun&nbsp; 5. Date From - Date To : 24-10-2020 06:00 AM - 24-10-2020 07:00 PM&nbsp; 6. Mode of Travel :LIGHT MOTOR VEHICLE (LMV)&choe=UTF-8"/>
+                	    </div>
+                	    
+                	    <div class="col-md-12 text-center">
+                	        <br/><br/>Authorized Signatory,<br/>
+                	        DISTRICT ADMINISTRATION, DEHRADUN                	    </div>
+                	</div>
+                	<div class="row">
+                	    <div class="col-md-12"><br/><br/>Note: This is computer generated registration. Signature not required. You can verify registration authencity from http://smartcitydehradun.uk.gov.in/e-pass</div>
+                	</div>
+					</div>
+                </div>			
+            </div>
+		</div>		
+	</div>
+</div>
+</body>
+</html>

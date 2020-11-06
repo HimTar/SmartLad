@@ -38,6 +38,7 @@ passport.use(
       }
       //No user exists
       if (!user) {
+        console.log(user);
         return done(null, false);
       }
       //Check if password is correct

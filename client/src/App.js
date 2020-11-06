@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Helmet } from "react-helmet";
+
 import Admin from "./components/admin";
 import NavBar from "./components/navbar/Navbar";
 import Footer from "./components/footer/footer";
@@ -19,42 +21,49 @@ import Test from "./components/utils/test";
 
 function App() {
   return (
-    <Router>
-      <NavBar />
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Smartlad</title>
+      </Helmet>
 
-      <Switch>
-        <Route exact path={["/", "/home"]} component={Home} />
-        <Route exact path="/courses" component={Courses} />
-        <Route exact path="/courses/:courseId" component={CoursePage} />
+      <Router>
+        <NavBar />
 
-        <UnPrivateRoute path="/login" component={Login} />
-        <UnPrivateRoute path="/register" component={Register} />
+        <Switch>
+          <Route exact path={["/", "/home"]} component={Home} />
+          <Route exact path="/courses" component={Courses} />
+          <Route exact path="/courses/:courseId" component={CoursePage} />
 
-        <PrivateRoute
-          path="/payment-status"
-          roles={["user"]}
-          component={PaymentStatus}
-        />
-        <PrivateRoute
-          path="/dashbord"
-          roles={["admin", "user"]}
-          component={Dashbord}
-        />
-        <PrivateRoute
-          path="/upload-course"
-          roles={["user"]}
-          component={UploadCourse}
-        />
-        <PrivateRoute path="/admin" roles={["admin"]} component={Admin} />
+          <UnPrivateRoute path="/login" component={Login} />
+          <UnPrivateRoute path="/register" component={Register} />
 
-        <Route exact path="/inmaking" component={InMaking} />
-        <Route path="/test" component={Test} />
+          <PrivateRoute
+            path="/payment-status"
+            roles={["user"]}
+            component={PaymentStatus}
+          />
+          <PrivateRoute
+            path="/dashbord"
+            roles={["admin", "user"]}
+            component={Dashbord}
+          />
+          <PrivateRoute
+            path="/upload-course"
+            roles={["user"]}
+            component={UploadCourse}
+          />
+          <PrivateRoute path="/admin" roles={["admin"]} component={Admin} />
 
-        <Route component={Page404} />
-      </Switch>
+          <Route exact path="/inmaking" component={InMaking} />
+          <Route path="/test" component={Test} />
 
-      <Footer />
-    </Router>
+          <Route component={Page404} />
+        </Switch>
+
+        <Footer />
+      </Router>
+    </>
   );
 }
 
